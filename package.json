@@ -1,0 +1,22 @@
+{
+  "name": "sanber56-cypress-kelompok10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysyasz/Sanber56-Cypress-Kelompok10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sysyasz/Sanber56-Cypress-Kelompok10/issues"
+  },
+  "homepage": "https://github.com/sysyasz/Sanber56-Cypress-Kelompok10#readme",
+  "devDependencies": {
+    "cypress": "^13.9.0"
+  }
+}
