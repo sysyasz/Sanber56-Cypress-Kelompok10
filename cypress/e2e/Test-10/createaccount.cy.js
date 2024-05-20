@@ -38,7 +38,7 @@ describe('Pembuatan Akun', () => {
   })
 
 
-  it('Mengisi Form Pembuatan Akun dengan email yangsudah terdaftar', () => {
+  it('Mengisi Form Pembuatan Akun dengan email yang sudah terdaftar', () => {
     cy.fixture('users.json').then((users)=> { 
     cy.get('#firstname').type(users.firstName)
     cy.get('#lastname').type(users.lastName)

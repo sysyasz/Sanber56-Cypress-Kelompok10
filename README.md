@@ -10,7 +10,7 @@ Nama Kelompok
 Pembagian Tugas
 
 - Create an Account (Sahrul)
-- Login
+- Login (Syasya)
 - My Account > Edit Account Information & Edit Address
 - Choose productsand Update Shopping Cart (Wildan)
 - Proceed to Checkout
