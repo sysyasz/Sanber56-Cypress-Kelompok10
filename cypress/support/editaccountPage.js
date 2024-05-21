@@ -8,7 +8,9 @@ class editaccount {
     currentpassw = '#current-password'
     newpassw = '#password'
     confirmnewpassw = '#password-confirmation'
-
+    saveaddress_btn = '#form-validate > .actions-toolbar > div.primary > .action > span'
+    state = '#region_id'
+   
 
     visitlogin(){
         cy.visit('https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/')
@@ -16,6 +18,11 @@ class editaccount {
     visiteditaccount(){
         cy.visit('https://magento.softwaretestingboard.com/customer/account/edit/')
       }
+    
+    visiteditadress(){
+        cy.visit('https://magento.softwaretestingboard.com/customer/address/edit/id/862/')
+      }
+      
       
     inputEmail(email){
         cy.get(this.email).type(email)
@@ -43,6 +50,12 @@ class editaccount {
     }
     inputConfirmNewPsw(pswconfirm){
         cy.get(this.confirmnewpassw).type(pswconfirm)
+    }
+    clickSaveAddress(){
+        cy.get(this.saveaddress_btn).click()
+    }
+    selectCity(){
+        cy.get(this.city).select(Alabama)
     }
 
     }
