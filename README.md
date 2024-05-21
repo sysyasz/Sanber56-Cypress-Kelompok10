@@ -11,7 +11,7 @@ Pembagian Tugas
 
 - Create an Account (Sahrul)
 - Login (Syasya)
-- My Account > Edit Account Information & Edit Address
+- My Account > Edit Account Information & Edit Address (Setia)
 - Choose productsand Update Shopping Cart (Wildan)
 - Proceed to Checkout
 - Variasikan skenario pengujian (positive & negative test) dan terapkan penggunaan
