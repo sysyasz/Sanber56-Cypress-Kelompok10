@@ -1,5 +1,5 @@
 class LoginPage {
-  visit() {
+visit() {
 cy.visit('https://magento.softwaretestingboard.com/customer/account/login')
 }
 
@@ -13,9 +13,15 @@ fillPassword(password) {
 cy.get('.login-container > .block-customer-login > .block-content > #login-form > .fieldset > .password > .control > #pass').type(password)
 }
 
+verifyError(){
+  cy.get('.message-error').should('contain.text','The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.')
+}
+
 clickLoginButton() {
 // cy.get('button[type="submit"]').click()
 cy.get('#send2').click()
+
+
 }}
 
 export default new LoginPage()
