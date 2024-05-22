@@ -2,10 +2,7 @@ import editaccountPage from '../../support/editaccountPage'
 
 describe('Edit Account Information and Address Testing', () => {
   beforeEach(() => {
-    editaccountPage.visitlogin()
-    editaccountPage.inputEmail('setia123@gmail.com')
-    editaccountPage.inputPsw('setia123.')
-    editaccountPage.clickLogin()
+    cy.loginedit('setia123@gmail.com','setia123.')
   })
 
   it('Failed Edit Email - empty Password', () => {
